@@ -10,7 +10,7 @@ int main() {
 	int sum = 0;
 
 	for (int i = 0; i < array_size; i++) {
-		sum += arr1[i] * arr2[2];
+		sum += arr1[i] * arr2[i];
 	}
 	return 0;
 }
