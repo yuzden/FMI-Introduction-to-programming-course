@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 	int n = 0;
-	int number = 0;
 	cin >> n;
 
+	int number = 0;
 	int max_value = INT16_MIN;
 	int min_value = INT16_MAX;
 	
