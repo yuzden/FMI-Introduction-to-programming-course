@@ -20,7 +20,7 @@ int main() {
 			min_value = number;
 		}
 	}
-	cout << max_value << " " << min_value;
+	cout << max_value
 
 	return 0;
 }
