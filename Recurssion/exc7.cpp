@@ -1,5 +1,4 @@
 ﻿#include<iostream>
-#include<vector>
 
 using namespace std;
 //Съставете рекурсивна подпрограма, 
@@ -10,9 +9,7 @@ int all_sum(int num) {
 	if (num == 0) {
 		return 0;
 	}
-	sum = sum + num % 10;
-	all_sum(num/10);
-	return sum;
+	return(num % 10 + all_sum(num / 10));
 }
 
 int main() {
