@@ -5,7 +5,6 @@ using namespace std;
 //която намира сумата от цифрите на дадено цяло положително число.
 
 int all_sum(int num) {
-	static int sum = 0;
 	if (num == 0) {
 		return 0;
 	}

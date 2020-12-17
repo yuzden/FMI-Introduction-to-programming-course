@@ -6,10 +6,10 @@ using namespace std;
 
 
 int count_digits(int num) {
-	if (number <= 0) {
+	if (num <= 0) {
 		return 0;
 	}
-	return 1 + count_digits(number / 10);
+	return 1 + count_digits(num/ 10);
 }
 
 int main() {
